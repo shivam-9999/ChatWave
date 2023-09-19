@@ -8,7 +8,6 @@ const harperSaveMessage = require("./services/harper-save-message");
 const harperGetMessages = require("./services/harper-get-messages"); // Add this
 const leaveRoom = require("./utils/leave-room");
 
-console.log(process.env.HARPERDB_PW);
 app.use(cors()); // Add cors middleware
 
 const server = http.createServer(app); // Add this
